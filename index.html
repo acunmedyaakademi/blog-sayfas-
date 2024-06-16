@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Sayfası</title>
+  <link rel="stylesheet" href="assets/css/blog.css">
+  <script src="assets/js/blog.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <form class="blogAdd">
+      <label for="tittle">Başlık</label>
+      <input type="text" name="tittle">
+      <label for="explanation">Açıklama</label>
+      <textarea name="explanation" rows="3"></textarea>
+      <label for="authorInformation">Yazar Bilgisi-(AD-SOYAD)</label>
+      <input type="text" name="authorInformation">
+      <label for="category">Film Kategorisi Seçiniz</label>
+      <select name="category" id="film">
+        <option value="Otomobil İncelemeleri">Otomobil İncelemeleri</option>
+        <option value="Motor Sporları">Motor Sporları</option>
+        <option value="Teknoloji ve Otomobiller">Teknoloji ve Otomobiller</option>
+        <option value="Otomobil Bakımı">Otomobil Bakımı</option>
+        <option value="Otomobil Kültürü">Otomobil Kültürü</option>
+      </select>
+      <label for="image">Görsel</label>
+      <input type="text" name="image">
+
+      <button type="submit" class="blogBtn">Formu Gönder</button>
+    </form>
+    <button class="clearLocal">Storage i temizle</button>
+    <button id="addData">Örnek blog ekle</button>
+
+
+    <div class="blogList">
+      <h1>Otomobil İncelemeleri</h1>
+      <div class="examination"></div>
+      <h1>Motor Sporları</h1>
+      <div class="motorsport"></div>
+      <h1>Teknoloji ve Otomobiller</h1>
+      <div class="technologyAndAutomobiles"></div>
+      <h1>Otomobil Bakımı</h1>
+      <div class="automobileMaintenance"></div>
+      <h1>Otomobil Kültürü</h1>
+      <div class="carCulture"></div>
+    </div>
+  </div>
+</body>
+
+</html>

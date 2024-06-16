@@ -1,0 +1,150 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+input,
+textarea,
+select {
+  border-radius: 16px;
+  padding: 8px;
+  border: none;
+  background-color: antiquewhite;
+}
+
+img {
+  width: 120px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: black;
+  color: antiquewhite;
+}
+
+button {
+  border: none;
+  border-radius: 16px;
+  padding-block: 8px;
+}
+
+.container {
+  font-family: system-ui;
+  margin: 0 auto;
+}
+
+label {
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(175, 8, 8);
+}
+
+.blogAdd {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  gap: 10px;
+  background-color: lightgrey;
+  padding: 24px;
+}
+
+.blogList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin: 0 auto;
+  min-width: fit-content;
+}
+
+.blogList h1 {
+  color: red;
+}
+
+.blogBox {
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding: 16px;
+  background-color: rgb(183, 180, 180);
+  color: #00000080;
+  margin: 0 auto;
+  width: 100%;
+
+}
+
+.blogBox:hover {
+  background-color: rgb(130, 114, 114);
+  color: #FFF;
+}
+
+.examination {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+}
+
+.motorsport {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+}
+
+.technologyAndAutomobiles {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+}
+
+.automobileMaintenance {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+}
+
+.carCulture {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-inline: 8px;
+}
